@@ -629,7 +629,7 @@ class VLAAgent:
         self.model_name = vlm_model_name  # vllm需要这个模型名字完全一致
 
         if not "BRAVE_SEARCH_API_KEY" in os.environ:
-            os.environ["BRAVE_SEARCH_API_KEY"] = "BSAA_65Vl_johjq_-6g8dpqqCfttbn7"
+            os.environ["BRAVE_SEARCH_API_KEY"] = ""
 
         BRAVE_API_KEY = os.environ["BRAVE_SEARCH_API_KEY"]
 
